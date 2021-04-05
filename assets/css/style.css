@@ -259,7 +259,7 @@ footer {
 }
 
 /* repsonsive design */
-    /* for 1200px screens and below */
+    /* for screens below 1200px */
 
 @media screen and (max-width: 1200px) {
     #club-ethos {
@@ -333,6 +333,15 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
+
+    #photos {
+        column-count: 3;
+    }
 }
 
-    /*  */
+    /* for screens below 800px */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
